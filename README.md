@@ -1,3 +1,5 @@
 # Recurrent-U-Net
 ## Recurrent U-Net for Resource-Constrained Segmentation
-###### The code is being cleaned at the moment. It will be released soon.
+Please check the following URL for the code:
+https://github.com/kcyu2014/recurrent-unet/blob/master/README.md
+
