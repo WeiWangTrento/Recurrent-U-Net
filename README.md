@@ -6,9 +6,9 @@ Please check the following URL for the code:
 https://github.com/kcyu2014/recurrent-unet/blob/master/README.md
 
 ### Dataset
-- 'KBH.tar.gz' contains more than '12.5K' annoated hand segmentation images.
-- 'KBH2.tar.gz' is an extension which contains '3,054' annoated hand segmentation images.
-- In total, there are '15,590' annotated hand segmentation images.
+- *KBH.tar.gz* contains more than **12.5K** annoated hand segmentation images.
+- *KBH2.tar.gz* is an extension which contains **3,054** annoated hand segmentation images.
+- In total, there are **15,590** annotated hand segmentation images.
 
 **If you used this dataset in your research, please consider citing:**
 
@@ -23,5 +23,8 @@ https://github.com/kcyu2014/recurrent-unet/blob/master/README.md
 ```
 
 - Train Val Test Split
-  - train_val_test_split folder saves the split used for our ICCV publication.
-  - 'split.py' shows how to get the train_val_test_split folder.
+  - train_val_test_split folder saves the split used for the ICCV publication.
+  - *split.py* shows how to get the train_val_test_split folder for KBH dataset.
+  - *split2.py* shows how to get the train_val_test_split_ext folder for the extra images in KBH2.
+  - txt fiels in *train_val_test_split* & *train_val_test_split_ext* folders need to be merged manually if you want to use all the images.
+
