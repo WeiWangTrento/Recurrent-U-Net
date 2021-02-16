@@ -26,5 +26,13 @@ https://github.com/kcyu2014/recurrent-unet/blob/master/README.md
   - train_val_test_split folder saves the split used for the ICCV publication.
   - *split.py* shows how to get the train_val_test_split folder for KBH dataset.
   - *split2.py* shows how to get the train_val_test_split_ext folder for the extra images in KBH2.
+
+- Command
+  ``` 
+  tar -xvzf KBH.tar.gz
+  tar -xvzf KBH2.tar.gz
+  python split.py
+  python split2.py
+  ```
   - txt fiels in *train_val_test_split* & *train_val_test_split_ext* folders need to be merged manually if you want to use all the images.
 
