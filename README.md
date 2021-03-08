@@ -1,7 +1,7 @@
 # Recurrent-U-Net
 ## Recurrent U-Net for Resource-Constrained Segmentation
 
-![Coarse to Fine Hand Segmentation with Recurrent U-Net](./loop.pdf)
+![Coarse to Fine Hand Segmentation with Recurrent U-Net](loop.pdf)
 
 ### Code
 Please check the following URL for the code:
